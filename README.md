@@ -4,10 +4,10 @@
 - execute **_python3 app.py_** to run the server
 - (we can query the server with either localhost address or ip address of the host where the script is being executed from)
 - Following are some of the example queries
-1. http://127.0.0.1/query?limit=5
-2. http://127.0.0.1/query?date=2012-06-04
-3. http://127.0.0.1/query?weather=rain
-4. http://127.0.0.1/query?weather=rain&limit=5
+1. http://127.0.0.1:5000/query?limit=5
+2. http://127.0.0.1:5000/query?date=2012-06-04
+3. http://127.0.0.1:5000/query?weather=rain
+4. http://127.0.0.1:5000/query?weather=rain&limit=5
 - execute **_python3 test-app.py_** to run the test script.
 
 ## Docker setup
