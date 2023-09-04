@@ -18,10 +18,10 @@
 - #Build the image-
 - **_docker build -t web-app ._**
 - #run the container from the above image
-- **_docker run -d -p 5000:5000 -name web-app -network my-app-network web-app_**
+- **_docker run -d -p 5000:5000 --name web-app --network my-app-network web-app_**
 - Here the image is named web-app and it is binded to host port 5000, so that it is accessible from outside the container.
 - check if the app is accessible from host by executing any query from the host's browser for example-
-- http://127.0.0.1/query?date=2012-06-04
+- http://127.0.0.1:5000/query?date=2012-06-04
 
 ### Steps for creating a Docker conatiner and running a test script in it-
 - **_cd docker-test-app_**
