@@ -1,4 +1,4 @@
-"""program to test the app api"""
+"""program to test the service api"""
 import unittest
 import requests
 import json
